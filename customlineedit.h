@@ -18,7 +18,6 @@ public:
 private:
 
     Behavior mode;
-    bool lastIsDot = true;
     int lastDotIndex = -1;
 
     void behaviorChanger();
